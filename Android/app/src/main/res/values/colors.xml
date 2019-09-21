@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="transparent">#00000000</color>
+    <color name="dim_lighter_gray">#80E0E0E0</color>
+    <color name="border_color">#50000000</color>
+    <color name="header_color">#80000000</color>
+    <color name="header_border_shadow">#95000000</color>
+    <color name="section_color">#80000000</color>
+</resources>

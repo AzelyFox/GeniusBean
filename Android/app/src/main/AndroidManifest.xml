@@ -1,0 +1,77 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="kr.devs.geniusbean">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <permission android:protectionLevel="signature"
+        android:name="kr.devs.geniusbean.permission.C2D_MESSAGE" />
+    <uses-permission android:name="kr.devs.geniusbean.permission.C2D_MESSAGE" />
+
+    <application
+        xmlns:tools="http://schemas.android.com/tools"
+        android:name=".BeanApplication"
+        android:hardwareAccelerated="true"
+        android:largeHeap="true"
+        android:allowBackup="true"
+        android:label="@string/app_name"
+        android:icon="@mipmap/icon_bean"
+        android:theme="@style/BeanTheme"
+        tools:replace="android:icon">
+
+        <activity
+            android:name=".door.LoadingActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".door.LoginActivity"/>
+        <activity
+            android:name=".door.MainActivity"/>
+        <activity
+            android:name=".room.WaitingActivity"
+            android:windowSoftInputMode="adjustPan|stateAlwaysHidden"/>
+        <activity android:name=".other.MenuInfoActivity"/>
+        <activity android:name=".other.MenuFriendActivity"/>
+        <activity android:name=".other.MenuGuildActivity"/>
+        <activity android:name=".other.MenuNoticeActivity"/>
+        <activity android:name=".other.MenuMarketActivity"/>
+        <activity android:name=".other.MenuSettingActivity"/>
+        <activity android:name=".game.LoadGateActivity"/>
+
+        <service android:name="com.parse.PushService" />
+        <receiver android:name="com.parse.ParseBroadcastReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.USER_PRESENT" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.parse.ParsePushBroadcastReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.parse.push.intent.RECEIVE" />
+                <action android:name="com.parse.push.intent.DELETE" />
+                <action android:name="com.parse.push.intent.OPEN" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.parse.GcmBroadcastReceiver"
+            android:permission="com.google.android.c2dm.permission.SEND">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+                <category android:name="kr.devs.geniusbean" />
+            </intent-filter>
+        </receiver>
+
+    </application>
+
+</manifest>

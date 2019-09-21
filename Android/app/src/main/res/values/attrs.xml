@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CheckBox">
+        <attr name="checkbox_color" format="color"/>
+        <attr name="checkbox_checked_color" format="color"/>
+    </declare-styleable>
+    <declare-styleable name="PaperButton">
+        <attr name="paper_text" format="string"/>
+        <attr name="paper_text_size" format="dimension"/>
+        <attr name="paper_text_color" format="color"/>
+        <attr name="paper_font" format="string"/>
+        <attr name="paper_color" format="color"/>
+        <attr name="paper_corner_radius" format="dimension"/>
+        <attr name="paper_shadow_radius" format="float"/>
+        <attr name="paper_shadow_offset_x" format="float"/>
+        <attr name="paper_shadow_offset_y" format="float"/>
+        <attr name="paper_shadow_color" format="color"/>
+    </declare-styleable>
+    <declare-styleable name="FloatingEditText">
+        <attr name="floating_edit_text_hint_scale" format="float"/>
+        <attr name="floating_edit_text_color" format="color"/>
+        <attr name="floating_edit_text_highlighted_color" format="color"/>
+        <attr name="floating_edit_text_error_color" format="color"/>
+        <attr name="floating_edit_text_underline_height" format="dimension"/>
+        <attr name="floating_edit_text_underline_highlighted_height" format="dimension"/>
+    </declare-styleable>
+	<declare-styleable name="match">
+        <attr name="text" format="string" />
+        <attr name="textColor" format="color" />
+        <attr name="textSize" format="dimension" />
+    </declare-styleable>
+    <declare-styleable name="image_labeled_button">
+        <attr name="icon_resource" format="reference" />
+        <attr name="icon_label" format="reference" />
+    </declare-styleable>
+    <declare-styleable name="toggle_image_labeled_button">
+        <attr name="icon_resource_off" format="reference" />
+    </declare-styleable>
+    <declare-styleable name="accordion">
+        <attr name="header_layout_id" format="reference" />
+        <attr name="header_layout_fold_button_id" format="reference" />
+        <attr name="header_layout_label_id" format="reference" />
+        <attr name="custom_font" format="string" />
+        <attr name="section_headers" format="reference" />
+        <attr name="section_container" format="reference" />
+        <attr name="section_container_parent" format="reference" />
+        <attr name="section_bottom" format="reference" />
+        <attr name="section_visibility" format="reference"/>
+    </declare-styleable>
+</resources>

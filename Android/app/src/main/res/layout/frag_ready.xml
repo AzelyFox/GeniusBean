@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:background="#00000000">
+    <LinearLayout
+        android:id="@+id/frag_ready_btn_parent"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center">
+        <Button
+            android:id="@+id/frag_ready_btn_kick"
+            android:layout_width="80dp"
+            android:layout_height="70dp"
+            android:visibility="visible"
+            android:background="@drawable/btn_frag_ready_selector_kick"/>
+        <Button
+            android:id="@+id/frag_ready_btn_kick_cancel"
+            android:layout_width="80dp"
+            android:layout_height="70dp"
+            android:visibility="gone"
+            android:background="@drawable/btn_frag_ready_selector_kick_cancel"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center">
+        <Button
+            android:id="@+id/frag_ready_btn_start"
+            android:layout_width="80dp"
+            android:layout_height="70dp"
+            android:visibility="gone"
+            android:background="@drawable/ready_start_i"/>
+        <Button
+            android:id="@+id/frag_ready_btn_ready"
+            android:layout_width="80dp"
+            android:layout_height="70dp"
+            android:visibility="visible"
+            android:background="@drawable/btn_frag_ready_selector_ready"/>
+        <Button
+            android:id="@+id/frag_ready_btn_ready_cancel"
+            android:layout_width="80dp"
+            android:layout_height="70dp"
+            android:visibility="gone"
+            android:background="@drawable/btn_frag_ready_selector_kick_cancel"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center">
+        <Button
+            android:id="@+id/frag_ready_btn_out"
+            android:layout_width="80dp"
+            android:layout_height="70dp"
+            android:background="@drawable/btn_frag_ready_selector_out"/>
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,16 @@
+<resources>
+
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light.DarkActionBar"/>
+
+    <style name="BeanTheme" parent="AppBaseTheme">
+        <item name="android:typeface">monospace</item>
+    </style>
+
+    <style name="Light" parent="android:Theme.Light">
+
+    </style>
+    <style name="Dark" parent="android:Theme.Black">
+
+    </style>
+
+</resources>

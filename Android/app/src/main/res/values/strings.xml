@@ -1,0 +1,185 @@
+<resources>
+    <!-- BASIC STRINGS -->
+    <string name="app_name">콩의딜레마</string>
+    <string name="unknown_error">알수없는 에러발생</string>
+    <string name="grade_i">레드</string>
+    <string name="grade_ii">옐로우</string>
+    <string name="grade_iii">그린</string>
+    <string name="grade_iv">블루</string>
+    <string name="grade_v">퍼플</string>
+
+    <!-- APPLICATION CLASS STRINGS -->
+    <string name="beanapp_error_decrypt">정보 받아오기 실패</string>
+
+    <!-- LOADING SCREEN -->
+    <string name="loading_devskr">Provided By Devs.kr</string>
+    <string name="loading_devskr_url">www.devs.kr</string>
+
+    <!-- LOGIN SCREEN -->
+    <string name="login_retry">다시 로그인 버튼을 눌러 주세요!</string>
+    <string name="login_welcome">님 환영합니다!</string>
+    <string name="login_version">Version </string>
+    <string name="login_loading_top_doing_i">네트워크 가져오는 중</string>
+    <string name="login_loading_top_doing_ii">서버에 연결하는 중</string>
+    <string name="login_loading_top_doing_iii">버전을 검사하는 중</string>
+    <string name="login_loading_top_doing_iv">리소스 파일 확인하는 중</string>
+    <string name="login_loading_top_doing_v">리소스 파일 다운로드 중</string>
+    <string name="login_loading_top_fail">서버와 통신실패</string>
+    <string name="login_loading_top_success">게임 준비 완료</string>
+    <string name="login_loading_fail_network">네트워크 연결불가</string>
+    <string name="login_loading_fail_network_content">네트워크 연결을 확인해주세요</string>
+    <string name="login_loading_fail_server_norespond">서버의 미응답</string>
+    <string name="login_loading_fail_server_norespond_content">서버의 응답이 없습니다</string>
+    <string name="login_loading_fail_server_off">서버가 미가동중</string>
+    <string name="login_loading_fail_server_off_content">잠시 후 다시 시도해 주세요</string>
+    <string name="login_loading_fail_server_fix">서버 유지보수중</string>
+    <string name="login_loading_fail_server_fix_content">잠시 후 다시 시도해 주세요</string>
+    <string name="login_loading_fail_server_decrypt">응답값 해석 불가</string>
+    <string name="login_loading_fail_server_decrypt_content">알수없는 에러가 발생했습니다\n최신 버전이 아닌경우 업데이트하세요</string>
+    <string name="login_loading_fail_version_low">업데이트가 필요합니다</string>
+    <string name="login_loading_fail_version_low_now">게임 버전: </string>
+    <string name="login_loading_fail_version_low_server">최신 버전: </string>
+    <string name="login_loading_fail_version_dialog_update">업데이트</string>
+    <string name="login_loading_fail_dialog_retry">재시도</string>
+    <string name="login_dialog_makecharacter">캐릭터를 생성해주세요!</string>
+    <string name="login_dialog_welcome">님 환영합니다!</string>
+    <string name="login_dialog_doing">로그인 중</string>
+
+    <!-- LOGIN SCREEN - DOWNLOAD -->
+    <string name="login_download_title">리소스 다운로드</string>
+    <string name="login_download_title_sub">게임에 필요한 파일을 다운로드 중입니다</string>
+    <string name="login_download_start_alert_title">리소스 다운로드 필요</string>
+    <string name="login_download_start_alert_content">이동통신망을 이용하여 다운로드하시면 별도의 데이터 통화료가 발생할 수 있습니다</string>
+    <string name="login_download_start_alert_confirm">다운로드</string>
+    <string name="login_download_error_alert_title">다운로드 에러 발생</string>
+    <string name="login_download_error_alert_content">재시도하여 해당 파일을 다시 받아주세요</string>
+    <string name="login_download_error_alert_retry">재시도</string>
+
+    <!-- MAIN SCREEN -->
+    <string name="main_quit">정말로 종료할까요?</string>
+    <string name="main_quit_content">다음에 또 봐요!</string>
+    <string name="main_quit_yes">종료</string>
+    <string name="main_quit_no">취소</string>
+
+    <!-- MAIN SCREEN - BAR -->
+    <string name="main_bar_rating">레이팅</string>
+    <string name="main_bar_guild_none">소속된 길드 없음</string>
+
+    <!-- MAIN SCREEN - PROFILE -->
+    <string name="main_profile_level">Lv.</string>
+    <string name="main_profile_exp">%</string>
+
+    <!-- MAIN SCREEN - REGISTER -->
+    <string name="main_register_enter">사용할 닉네임 입력</string>
+    <string name="main_register_button">등록하기</string>
+    <string name="main_register_error_empty">닉네임을 입력해주세요</string>
+    <string name="main_register_error_long">닉네임이 너무 깁니다</string>
+    <string name="main_register_error_duplicate">닉네임이 이미 존재합니다</string>
+    <string name="main_register_dialog_doing">등록중</string>
+    <string name="main_register_check_i">개인정보취급방침</string>
+    <string name="main_register_check_ii">서비스이용방침</string>
+    <string name="main_register_check_agree">에 동의합니다</string>
+    <string name="main_register_check_raw_error">불러오는 중 에러가 발생했습니다</string>
+    <string name="main_register_check_popup_close">닫기</string>
+    <string name="main_register_success">가입 성공</string>
+    <string name="main_register_success_content">환영합니다!</string>
+
+    <!-- MAIN SCREEN - FEATURE -->
+    <string name="main_feature_box_create">방 생성하기</string>
+    <string name="main_feature_box_question">게임 설명</string>
+    <string name="main_feature_box_chat">방 찾기</string>
+    <string name="main_feature_box_ranking">랭킹 확인</string>
+    <string name="main_feature_box_channel">채널</string>
+
+    <!-- MAIN SCREEN - FEATURE - CREATE -->
+    <string name="main_feature_box_create_name">방 제목</string>
+    <string name="main_feature_box_create_pw_use">비밀번호를 사용합니다</string>
+    <string name="main_feature_box_create_pw">비밀번호</string>
+    <string name="main_feature_box_create_bat_use">배팅 기능을 사용합니다</string>
+    <string name="main_feature_box_create_bat">배팅 콩 개수</string>
+    <string name="main_feature_create_error_name_empty">방 이름을 입력하세요</string>
+    <string name="main_feature_create_error_name_short">방 이름은 3글자 이상으로 해주세요</string>
+    <string name="main_feature_create_error_pw_short">비밀번호는 4글자 이상으로 해주세요</string>
+    <string name="main_feature_create_error_bat_low">배팅은 100개 이상으로 해주세요</string>
+    <string name="main_feature_create_error_bat_high">배팅은 10000개 이하로 해주세요</string>
+    <string name="main_feature_create_dialog">방 생성중</string>
+
+    <!-- MAIN SCREEN - ROOM - LIST -->
+    <string name="main_room_list_bat">배팅</string>
+    <string name="main_room_list_nothing">생성된 방이 없어요</string>
+
+    <!-- MAIN SCREEN - ROOM - GATE -->
+    <string name="main_gate_enter_password">비밀번호 입력</string>
+    <string name="main_gate_enter">입장</string>
+    <string name="main_gate_roomnum">방번호: #</string>
+    <string name="main_gate_roombat">배팅 : </string>
+    <string name="main_gate_roombat_none">배팅하지 않음</string>
+    <string name="main_gate_error_password_enter">비밀번호 미입력</string>
+    <string name="main_gate_error_password_match">비밀번호 불일치</string>
+
+    <!-- MAIN SCREEN - MENU COMMON -->
+    <string name="main_menu_i">정보</string>
+    <string name="main_menu_ii">친구</string>
+    <string name="main_menu_iii">길드</string>
+    <string name="main_menu_iv">공지</string>
+    <string name="main_menu_v">상점</string>
+    <string name="main_menu_vi">설정</string>
+    <string name="main_menu_alert_back_title">돌아가기</string>
+    <string name="main_menu_alert_back_content">메인으로 돌아갈까요?</string>
+    <string name="main_menu_alert_back_confirm">나가기</string>
+    <string name="main_menu_alert_back_cancel">취소</string>
+    <string name="main_menu_fixing_message">기능 준비중입니다</string>
+    
+    <!-- WAITING SCREEN -->
+    <string name="waiting_top_text_expand">더보기</string>
+    <string name="waiting_top_text_hide">감추기</string>
+    <string name="waiting_error_socket">소켓 미응답</string>
+    <string name="waiting_error_socket_content">서버 소켓의 응답이 없습니다</string>
+    <string name="waiting_error_socket_confirm">확인</string>
+    <string name="waiting_user_kicked">방장에 의해 강제퇴장되었습니다</string>
+    <string name="waiting_quit">방을 나갈까요?</string>
+    <string name="waiting_quit_content">게임중 퇴장하면 패널티가 주어집니다</string>
+    <string name="waiting_quit_yes">나가기</string>
+    <string name="waiting_quit_no">취소</string>
+
+    <!-- CHATTING SCREEN -->
+    <string name="chat_chatbox_hint">채팅하시려면 여기를 눌러주세요</string>
+    <string name="chat_chatbox_btn">전송</string>
+    <string name="chat_system_user_enter">새로운 유저가 입장하였습니다</string>
+    <string name="chat_system_user_quit">유저가 떠났습니다</string>
+    
+    <!-- MENU SCREEN -->
+    <string-array name="accordion_sections">
+        <item>리소스 관리</item>
+    </string-array>
+
+    <integer-array name="accordion_visibility">
+        <item>0</item>
+    </integer-array>
+
+    <string name="menu_info_hello">이곳을 클릭하여 인사말을 변경하세요</string>
+    <string name="menu_info_statistics_played">플레이 횟수 : </string>
+    <string name="menu_info_statistics_win">1등 횟수</string>
+    <string name="menu_info_statistics_lose">6등 횟수</string>
+    <string name="menu_info_rating">레이팅</string>
+    <string name="menu_info_dialog_text">변경할 인사말을 입력하세요</string>
+    <string name="menu_info_dialog_ok_title">변경 완료</string>
+    <string name="menu_info_dialog_ok_content">인사말이 변경되었습니다</string>
+    <string name="menu_info_dialog_ok_confirm">확인</string>
+    <string name="menu_info_dialog_error_title">에러 발생</string>
+    <string name="menu_info_dialog_error_content">변경중 에러가 발생했습니다</string>
+    <string name="menu_info_dialog_error_confirm">닫기</string>
+    <string name="menu_info_dialog_btn">변경</string>
+    <string name="menu_info_dialog_cancel">취소</string>
+    <string name="menu_setting_resource_dir">경로 </string>
+    <string name="menu_setting_resource_folder">리소스 크기 : </string>
+    <string name="menu_setting_resource_clear">삭제</string>
+    <string name="menu_setting_resource_alert_delete_title">삭제 확인</string>
+    <string name="menu_setting_resource_alert_delete_content">다운로드된 리소스를 삭제할까요?</string>
+    <string name="menu_setting_resource_alert_delete_confirm">삭제</string>
+    <string name="menu_setting_resource_alert_delete_cancel">취소</string>
+    <string name="menu_setting_resource_alert_deleted_title">리소스 삭제</string>
+    <string name="menu_setting_resource_alert_deleted_content">리소스가 모두 삭제되었습니다</string>
+    <string name="menu_setting_resource_alert_deleted_confirm">확인</string>
+
+</resources>
