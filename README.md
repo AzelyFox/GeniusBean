@@ -6,12 +6,12 @@
 
 <p align="center">
     <a href="#license">
-        <img src="https://img.shields.io/github/license/LIMECAKE/GeniusBean?style=flat-square" />
+        <img src="https://img.shields.io/github/license/AzelyFox/GeniusBean?style=flat-square" />
     </a>
-    <a href="https://github.com/LIMECAKE/GeniusBean/releases">
-        <img src="https://img.shields.io/github/v/release/LIMECAKE/GeniusBean?style=flat-square" />
+    <a href="https://github.com/AzelyFox/GeniusBean/releases">
+        <img src="https://img.shields.io/github/v/release/AzelyFox/GeniusBean?style=flat-square" />
     </a>
-    <a href="https://github.com/LIMECAKE/GeniusBean/issues">
+    <a href="https://github.com/AzelyFox/GeniusBean/issues">
         <img src="https://img.shields.io/badge/SUPPORT-END-black?style=flat-square" />
     </a>
 </p>
